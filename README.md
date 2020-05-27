@@ -9,7 +9,7 @@ The following ARGs are available with the Dockerfile at build to automate the se
 - ARG hashtopolis_server_url
 
 ### Docker Image:
-https://hub.docker.com/r/joshmsimpson/hashcat-hashtopolis-agent
+- https://hub.docker.com/r/joshmsimpson/hashcat-hashtopolis-agent
 
 ### Resources:
 - https://github.com/NVIDIA/nvidia-docker
