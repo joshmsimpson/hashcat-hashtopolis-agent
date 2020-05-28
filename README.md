@@ -5,6 +5,7 @@ hashcat-hashtopolis-agent
 Docker container with the latest version of hashcat and hashtopolis python agent used for distributed hash cracking.
 
 ### Basic Usage:
+
 Depending on your version of docker your basic launch options might look like some of the following:
 
 - docker run --runtime=nvidia -ti joshmsimpson/hashcat-hashtopolis-agent /bin/bash
@@ -49,10 +50,11 @@ The following ARGs are available with the Dockerfile at build to automate the se
 - ARG hashtopolis_server_url
 
 ### Docker Image:
+
 - https://hub.docker.com/r/joshmsimpson/hashcat-hashtopolis-agent
 
 ### Resources:
-- https://github.com/NVIDIA/nvidia-docker
+
 - https://github.com/NVIDIA/nvidia-docker
 - https://github.com/joshmsimpson/hashcat-hashtopolis-agent
 - https://github.com/s3inlc/hashtopolis-agent-python
